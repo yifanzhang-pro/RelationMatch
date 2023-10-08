@@ -1,5 +1,10 @@
 # RelationMatch
 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/relationmatch-matching-in-batch-relationships/semi-supervised-image-classification-on-stl-3)](https://paperswithcode.com/sota/semi-supervised-image-classification-on-stl-3?p=relationmatch-matching-in-batch-relationships)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.10397)
+![Python 3.10](https://img.shields.io/badge/python-3.7-green.svg)
+
 Official implementation of paper "RelationMatch: Matching In-batch Relationships for Semi-supervised Learning" (https://arxiv.org/abs/2305.10397).
 
 - **Achieving 15.21% accuracy improvement over FlexMatch on the STL-10 dataset!** 
