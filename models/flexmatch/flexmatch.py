@@ -71,18 +71,10 @@ class FlexMatch:
 
         self.bn_controller = Bn_Controller()
         self.args = args
-        if args.mce_loss == "XX":
-            self.mce_loss = MatrixCrossEntropyVectorLogFYFYFXFX(args)
-        elif args.mce_loss == "MatrixXX":
-            self.mce_loss = MatrixCrossEntropyMatrixLogFYFYFXFX(args)
-        elif args.mce_loss == "NoCenterYX":
-            self.mce_loss = MatrixCrossEntropyNoCenterFYFYFYFX(args)
-        elif args.mce_loss == "NoCenterXX":
-            self.mce_loss = MatrixCrossEntropyNoCenterFYFYFXFX(args)
-        elif args.mce_loss == "MMXX":
+        if args.mce_loss == "MMXX":
             self.mce_loss = MatrixCrossEntropyMMFYFYFXFX(args)
         else:
-            self.mce_loss = MatrixCrossEntropyVectorLogFYFYFYFX(args)
+            self.mce_loss = None
 
         if args.use_feature is not None:
             self.use_feature = args.use_feature
