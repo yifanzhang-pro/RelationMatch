@@ -35,7 +35,7 @@ We implement our RelationMatch method based on [TorchSSL](https://github.com/Tor
 
 
 ## Citations
-Please cite the paper and star this repo if you use RelationMatch and find it interesting/useful, thanks! Feel free to contact yif-zhang@outlook.com or open an issue if you have any questions.
+Please cite the paper and star this repo if you use RelationMatch and find it interesting/useful, thanks! 
 
 ```bibtex
 @article{zhang2023relationmatch,
